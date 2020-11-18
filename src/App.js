@@ -12,7 +12,9 @@ function App() {
   
   return (
     <div className="App">
-  
+      {
+        user ? (
+          <>
             <Header />
 
             <div className="app__body">
@@ -20,7 +22,11 @@ function App() {
               <Feed />
               <Widgets />
             </div>
- 
+          </>
+        ) : (
+            <Login />
+          )
+      }
 
     </div>
   );
