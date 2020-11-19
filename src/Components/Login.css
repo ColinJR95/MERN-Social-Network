@@ -7,7 +7,7 @@
 .login>div>img {
     object-fit: contain;
     height: 150px;
-    max-width: 200px;
+    max-width: 32rem;
 }
 
 .login>div {
@@ -17,7 +17,7 @@
 
 .login>button {
     width: 300px;
-    background-color: #2e81f4;
+    background-color: darkgreen;
     color: #eff2f5;
     font-weight: 800;
 }
