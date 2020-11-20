@@ -4,7 +4,7 @@ const Widgets = () => {
     return (
         <div className='widgets' >
             <iframe src="https://portfolio-9017b.web.app/"
-                width="340"
+                width="330"
                 height="1500"
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
